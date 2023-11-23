@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="80px"
+        android:layout_marginTop="15dp"
+        android:layout_height="80px"
+        android:layout_alignRight="@id/imageView2"
+        android:layout_marginRight="-350dp"
+        app:srcCompat="@drawable/baseline_heart_broken_24" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="20dp"
+        android:text="Details"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="400dp"
+        android:layout_height="380dp"
+        android:layout_below="@id/imageView2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="@drawable/_1383fef1_f488_4ecc_8eed_1387c6648f0b_removebg_preview" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/imageView7"
+        android:layout_marginLeft="25dp"
+        android:text="Samantha Tree" />
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_below="@id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textColor="#252424"
+        android:text="Regular Price $195.00" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView12"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        app:srcCompat="@drawable/baseline_add_box_24" />
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView12"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:textSize="16sp"
+        android:text="1" />
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView12"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        app:srcCompat="@drawable/baseline_indeterminate_check_box_24" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView12"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="290dp"
+        app:srcCompat="@drawable/baseline_star_rate_24" />
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView12"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="310dp"
+        app:srcCompat="@drawable/baseline_star_rate_24" />
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView12"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="330dp"
+        app:srcCompat="@drawable/baseline_star_rate_24" />
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView12"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="330dp"
+        app:srcCompat="@drawable/baseline_star_rate_24" />
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView12"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="350dp"
+        app:srcCompat="@drawable/baseline_star_rate_24" />
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView12"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="370dp"
+        app:srcCompat="@drawable/baseline_star_rate_24" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:paddingTop="15dp"
+        android:layout_below="@id/textView13"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="it is a long established fact that a reader will be distracted
+by the readable content of a page when looking at its layout" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/textView14"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/t1"
+        android:text="Buy Now"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
